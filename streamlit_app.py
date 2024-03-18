@@ -10,7 +10,8 @@ st.write(word_fr+" "+word_chi)
 st.button("refresh")
 st.write(indices)
 indices=np.random.choice(l,size=4,replace=false)
-0=np.random.choice(indices)
+j=np.random.choice(indices)
+
 word_fr=voc["Définition"].values[j]
 st.write("Traduis: "+word_fr)
 for i in range(4)
