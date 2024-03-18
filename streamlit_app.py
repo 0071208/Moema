@@ -1,3 +1,4 @@
 import streamlit as st
-name=st.text_input("Your name?")
-st.write("Hello" +name)
+import pandas as pd
+voc=pd.read_CSV('lien')
+st.dataframe(voc)
