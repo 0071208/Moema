@@ -7,4 +7,4 @@ l=voc.shape[0]
 i=np.random.choice(range(l))
 word_fr=voc['Définition'].values[i]
 word_chi=voc['hanzi'].values[i]
-st.write(word_fr+"hanzi"+word_chi)
+st.write(word_fr+" "+word_chi)
