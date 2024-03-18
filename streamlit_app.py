@@ -8,3 +8,15 @@ word_fr=voc['Définition'].values[i]
 word_chi=voc['Hanzi'].values[i]
 st.write(word_fr+" "+word_chi)
 st.button("refresh")
+st.write(indices)
+indices=np.random.choice(l,size=4,replace=false)
+0=np.random.choice(indices)
+word_fr=voc["Définition"].values[j]
+st.write("Traduis: "+word_fr)
+for i in range(4)
+st.button(voc["Hanzi"].values[indices[i]],on_click=is_correct,args((indices[i],j))
+def is_correct(i,j):
+  if i==j:
+    st.write("Bravooo")
+  else:
+    st.write("Raté!")
